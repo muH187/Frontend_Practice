@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-.space{ height: 50vh;}
+.space{ height: 20vh;}
 .headingFirst {
     font-size: 3rem;
     margin-left: 4rem;
@@ -18,11 +18,11 @@
     gap: 2rem;
 }
 .column {
-    border: 1px solid black;
     height: 100vh;
     max-width: 28vw;
     padding: 2rem;
     border-radius: 1rem;
+    box-shadow: 8px 2px 20px #b7b7b8;
 }
 button {
     padding: 0.7rem 0;
