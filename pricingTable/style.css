@@ -1,8 +1,10 @@
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+.space{ height: 50vh;}
 .headingFirst {
     font-size: 3rem;
     margin-left: 4rem;
@@ -25,7 +27,7 @@
 button {
     padding: 0.7rem 0;
     margin-top: 1rem;
-    margin-bottom: 0.6rem;
+    /* margin-bottom: 0.6rem; */
     width: 100%;
     font-size: 1rem;
     background-color: #00ba96;
@@ -38,7 +40,39 @@ button:hover {
     background-color: #008275;
     cursor: pointer;
 }
+.subscribe span {
+    color: #E05828;
+}
+h3 {
+    margin-top: 1rem;
+}
 h2 {
     font-weight: bolder;
     margin-bottom: 0.6rem;
+}
+h1 {
+    font-size: 3rem;
+}
+h1 span {
+    font-size: 1.1rem;
+    font-weight: 200;
+}
+h1 sup {
+    font-size: 1rem;
+    font-weight: 700;
+}
+p {
+    margin-top: 0.8rem;
+    color: #575C66;
+    font-size: 1.2rem;
+}
+p i {
+    color: #00BA96;
+    margin-right: 0.58rem;
+}
+#last-h3 {
+    margin-bottom: 0.45rem;
+}
+#last-p{
+    margin-top: 0;
 }
