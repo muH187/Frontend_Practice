@@ -3,3 +3,42 @@
     margin: 0;
     box-sizing: border-box;
 }
+.flex {
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+.notiBar{
+    font-weight: bold;
+    font-size: 1.08rem;
+    color: #fff;
+    background-color: purple;
+    text-align: center;
+    padding: 0.55rem 0;
+}
+nav {
+    padding: 1rem;
+}
+.logo img {
+    width: 20vw;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    padding: 0 1rem;
+    font-size: 1.3rem;
+}
+.container {
+    
+}
+.bannerImg {
+    width: 100%;
+}
+.bannerImg img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
