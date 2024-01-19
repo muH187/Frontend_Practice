@@ -31,12 +31,13 @@ h2 {
 }
 
 form {
-    border: 1px solid black;
-    height: 60vh;
+    height: 62vh;
     width: 100%;
     padding: 1.25rem;
     margin-top: 2rem;
     margin-right: 5rem;
+    border: none;
+    box-shadow: 1px 2px 15px hsl(0, 0%, 59%);
     background-color: #FFFFFF;
     border-radius: 0.75rem;
 }
@@ -65,9 +66,32 @@ p {
 p a {
     color: #1877F2;
     text-decoration: none;
+    font-size: 0.85rem;
+}
+.secBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #newBtn {
-    /* width: 70%; */
-    padding: 0.75rem 0;
-    margin: 0 auto;
+    padding: 0.85rem 0.65rem;
+    margin: 1.5rem 0;
+    background-color: rgb(66, 183, 42);
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.41rem;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: 0.2s ease-in-out;
+}
+#newBtn:hover{
+    background-color: #36A420;
+    cursor: pointer;
+}
+#last-p {
+    font-size: 0.95rem;
+    margin-top: 3rem;
+}
+#last-p span {
+    font-weight: bolder;
 }
